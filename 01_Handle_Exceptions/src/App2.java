@@ -8,7 +8,7 @@ public class App2 {
 		File file = new File("D:\\source\\myNot.txt");
 
 		Scanner sc = new Scanner(file);
-		
+
 		while(sc.hasNext())//return true if still remains lines
 		{
 			System.out.println(sc.nextLine());
