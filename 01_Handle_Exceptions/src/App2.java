@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class App2 {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		File file=new File("D:\\source\\myNot.txt");
-		Scanner sc=new Scanner(file);
+		File file = new File("D:\\source\\myNot.txt");
+
+		Scanner sc = new Scanner(file);
+		
 		while(sc.hasNext())//return true if still remains lines
 		{
 			System.out.println(sc.nextLine());
