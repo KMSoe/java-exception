@@ -26,7 +26,7 @@ public class App3 {
 		{
 			System.out.println(sc.nextLine());
 		}
-		
+
 		sc.close();
 	}
 
